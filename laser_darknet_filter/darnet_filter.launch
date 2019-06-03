@@ -1,0 +1,10 @@
+<launch>
+  <param name="/use_sim_time" value="False" />
+
+  <node name="darknet_filter" pkg="laser_darknet_filter" type="laser_darknet_filter_node" output="screen">
+    <remap from="image" to="/camera_floor/driver/color/image_raw" />
+    <remap from="laser_scan" to="/f_raw_scan" />
+    <remap from="bounding_boxes" to="/darknet_ros/bounding_boxes" />
+  </node>
+
+</launch>
