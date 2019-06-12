@@ -1,6 +1,6 @@
 # yolo_object_discrimination_slam
 
-
+This is an Open Source package.
 
 This ROS package contains:
 - laser_darknet_filter:
