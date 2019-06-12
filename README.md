@@ -11,6 +11,13 @@ This is a modification of http://wiki.ros.org/gmapping in order to make laser_da
 
 Dependencies: https://github.com/leggedrobotics/darknet_ros
 
+Technical note:
+From YoloObjectDetector.cpp in line 588
+Instead of
+if (num > 0 && num <= 100) {
+replace with
+if (num >= 0 && num <= 100) {
+
 https://www.youtube.com/watch?v=92vfkuiwe_Y
 
 This repository was made as part of my MSc's thesis.
