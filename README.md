@@ -19,4 +19,5 @@ This repository was made as part of my MSc's thesis.
 
 Implemented in ROS for a higher-fidelity approach in autonomous mobile robot exploration using LIDAR sensors and a depth camera integrated with the MiR100 robot. In addition, by using state-of-the-art deep learning object detector like YOLOv3, the system filtered out undesired objects from the navigation map.
 
+Please, do not forget to referenciate me if you use any piece of my work.
 The documentation is still in process to be completed.
